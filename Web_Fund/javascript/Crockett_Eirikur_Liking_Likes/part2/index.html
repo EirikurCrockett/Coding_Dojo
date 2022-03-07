@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./cards.css">
+    <link rel="stylesheet" href="./userCard.css">
+</head>
+<body>
+    <h1 class="header">Network</h1>
+    <h1 id="subHeader">Your Feed</h1>
+
+    <div class="container">
+        <div class="userCard">
+            <img src="./user_circle.png" alt="User Icon">
+            <a href="#">Add an avatar</a>
+            <p id="userName">James Doe</p>
+        </div>
+
+        <div class="feed">
+            <div class="card">
+                <div class="cardLine">
+                    <p id="userName">Some User</p>
+                    <div class="likes">
+                        <p id="likes1">0 like(s)</p>
+                        <button id="likeButton" onclick="like(0)" >Like</button>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, soluta!</p>
+            </div>
+            <div class="card">
+                <div class="cardLine">
+                    <p id="userName">Some User</p>
+                    <div class="likes">
+                        <p id="likes2">0 like(s)</p>
+                        <button id="likeButton" onclick="like(1)" >Like</button>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, soluta!</p>
+            </div>
+            <div class="card">
+                <div class="cardLine">
+                    <p id="userName">Some User</p>
+                    <div class="likes">
+                        <p id="likes3">0 like(s)</p>
+                        <button id="likeButton" onclick="like(2)" >Like</button>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, soluta!</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

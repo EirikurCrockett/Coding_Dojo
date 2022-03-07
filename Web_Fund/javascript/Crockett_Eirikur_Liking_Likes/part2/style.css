@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
+}
+
+.header{
+    width: 650px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+
+#subHeader{
+    text-align: center;
+    margin: 8px;
+}
+
+.container{
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#userName{
+    font-size: 24px;
+}

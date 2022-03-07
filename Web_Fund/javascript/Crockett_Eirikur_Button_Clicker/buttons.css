@@ -1,0 +1,44 @@
+button{
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 3px 3px 0px black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#blueButton{
+    color: white;
+    min-width: 100px;
+    background-color: #2b78e4;
+}
+
+#blueButton:hover{
+    background-color: black;
+    box-shadow: 3px 3px 0px #2b78e4;
+}
+
+#yellowButton{
+    min-width: 100px;
+    background-color: #ffd966;
+    color: black;
+
+}
+
+#yellowButton:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 0px #ffd966;
+}
+
+#greenButton{
+    min-width: 120px;
+    background-color: #93c47d;
+    color: black;
+}
+
+#greenButton:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 0px #93c47d;
+}

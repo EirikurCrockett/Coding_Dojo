@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.header{
+    background-color: #cccccc;
+    display: flex;
+    padding: 16px;
+}
+
+.navbar{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.mainbar{
+    width: 480px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.sidebar{
+    width: 300px;
+    padding: 8px;
+}

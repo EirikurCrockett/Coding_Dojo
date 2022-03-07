@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./buttons.css">
+    <link rel="stylesheet" href="./cards.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <h3>Dojonary</h3>
+            <input type="search" name="navSearch" id="navSearch" placeholder="Search">
+        <button id="blueButton" onclick="loginOut(this)">Login</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="mainbar">
+            <div class="mainCard">
+                <div class="word">
+                    <h3>ninja</h3>
+                    <p id="italic">noun</p>
+                    <p>Plural: <span id="italic">ninjas</span></p>
+                    <button id="yellowButton" onclick="likes(this, 1)">likes</button>
+                </div>
+                
+                <p id="definition">
+                    A practitioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a>
+                </p>
+
+            </div>
+
+            <div class="mainCard">
+                <div class="word">
+                    <h3>ninja</h3>
+                    <p id="italic">noun</p>
+                    <p>Plural: <span id="italic">ninjas</span></p>
+                    <button id="yellowButton" onclick="likes(this, 2)">likes</button>
+                </div>
+
+                <p id="definition">
+                    a <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus
+                </p>
+                
+            </div>
+
+
+        </div>
+
+        <div class="sidebar">
+            <div class="sideCard">
+                <h4>
+                    Dojonary is definded by <span id="bold">YOU</span>
+                </h4>
+                <button id="greenButton" onclick="hide(this)">Add definition</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

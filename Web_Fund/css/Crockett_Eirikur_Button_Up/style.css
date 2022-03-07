@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 2em;;
+}
+
+
+.search{
+    display: block;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #00d1b2;
+    background-color: white;
+    border-style: solid;
+    border-color: #00d1b2;
+    border-width: 1px;
+    border-radius: 12px;
+}
+
+.plus{
+    display: block;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: #00d1b2;
+    background-color:#00d1b2;
+}
+
+.acc{
+    display: block;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #2b78e4;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 5px 0px black;
+}

@@ -1,0 +1,59 @@
+.userCard{
+    flex-direction: column;
+}
+
+.pic{
+    height: 80px;
+    border: 5px solid lightgray;
+    border-radius: 50%;
+}
+
+
+.head{
+    height: 64px;
+    background-color: #17a2b8;
+    padding: 16px;
+    display: flex;
+}
+
+.info > *{
+    margin: 5px;
+    position: relative;
+    top:0.5em;
+}
+
+.info{
+    padding:16px;
+    border-style: solid;
+    border-top: hidden;
+    border-width: 5px;
+    border-color: gray;
+}
+
+.location{
+    display: flex;
+    gap: 5px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mapPin{
+    height: 21px;
+    width: 16px;
+}
+
+.config{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.gear{
+    height: 21px;
+    width: 21px;
+}

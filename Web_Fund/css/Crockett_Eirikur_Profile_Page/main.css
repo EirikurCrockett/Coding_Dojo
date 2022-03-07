@@ -1,0 +1,15 @@
+.main{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.mainCard > .cardBody  *{
+    padding: 8px;
+
+}
+
+#dates{
+    color: grey;
+}

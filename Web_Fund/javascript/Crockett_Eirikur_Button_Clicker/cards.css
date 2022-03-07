@@ -1,0 +1,22 @@
+.mainCard{
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}
+
+.word{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideCard{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: #9fc5f8;
+    color: white;
+}
+
+.navbar{
+    width:800px;
+    margin: 0 auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cities{
+    display: flex;
+    gap: 24px;
+    font-size: 24px;
+}
+
+#city{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 800px;
+    padding: 8px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.containerHead{
+    border-bottom: 3px solid black;
+    border-radius: 5%;
+    margin-bottom: 16px;
+}
+
+.flexBet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#tempIn{
+    gap: 8px;;
+}
+
+.card{
+    flex: 1;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    background-color: #eeeeee;
+    margin: 4px;
+}
+
+.forecastIcon{
+    width: 150px;
+    height: 150px;
+}
+
+.highLow{
+    width: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.high{
+    color: red;
+}
+
+.low{
+    color: blue;
+}
+
+#cookieCard{
+    width: 800px;
+    background-color: #eeeeee;
+    position: fixed;
+    bottom: 16px;
+    gap: 16px;
+    padding: 8px;
+}
+
+.cookieText{
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.cookieButton{
+    min-width: 80px;
+    height: 32px;
+    border: 3px solid black;
+    background-color: #9fc5f8;
+    box-shadow: 3px 3px 0px black;
+}
+
+.cookieButton:active{
+    margin: 2px;
+    min-width: 76px;
+    height: 28px;
+    box-shadow: 1px 1px 0px black;
+}

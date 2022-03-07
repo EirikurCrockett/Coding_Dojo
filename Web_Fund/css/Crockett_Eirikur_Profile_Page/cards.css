@@ -1,0 +1,72 @@
+
+.notification{
+    border-radius: 50%;
+    background-color: grey;
+    color: black;
+    width: auto;
+    padding: 3px 8px;
+}
+
+
+.cardHead{
+    color: white;
+    background-color: #333333;
+    display: flex;
+    height: 64px;
+    align-items: center;
+    padding: 8px;
+    gap: 16px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 5px;
+    border-color: grey;
+    border-top: hidden;
+}
+
+.cardLine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .3px 0;
+    padding: 8px;
+}
+
+.cardLine2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+}
+
+.lineItem{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cardPic{
+    border-radius: 50%;
+    height: 48px;
+}
+
+.cardIcon{
+    height: 32px;
+}
+
+.cardLink{
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    border-top: 5px solid grey;
+    padding: 16px;
+    padding-left: 8px;
+}
+
+.reqButton{
+    border-radius: 50%;
+    border: hidden;
+}

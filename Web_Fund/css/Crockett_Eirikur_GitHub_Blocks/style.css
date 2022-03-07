@@ -1,0 +1,44 @@
+
+body{
+    background-color: aliceblue;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+img{
+    height:200px;
+    margin: 20px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    margin: 20px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+    margin: 20px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: violet;
+    margin: 20px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
