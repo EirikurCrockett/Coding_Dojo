@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 40px;
+    padding: 16px;
+    gap: 16px;
+}
+
+
+.button{
+    font-size: 24px;
+    width: 100px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 4px black;
+    padding: 2px;
+}
+
+.button:active{
+    box-shadow: none;
+}
+
+#duo_button{
+    background-color: blue;
+    color: white;
+}
+
+#clear_button{
+    background-color: red;
+    color: white;
+}
+
+#form{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#form *{
+    font-size: 16px;
+}
+
+#input{
+    width: 100px;
+}

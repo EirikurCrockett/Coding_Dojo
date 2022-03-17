@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+
+<div id="container">
+    <p>{{session['counter']}}</p>
+    <div id="buttons">
+        <a href='/add_two'>
+            <button id="duo_button" class="button">+2</button>
+        </a>
+        <a href='/destroy_session'>
+            <button id="clear_button" class="button">clear</button>
+        </a>
+    </div>
+
+    <div id="form">
+        <form action='/add_multi' method='post'>
+            <label for='add_multi'>How Many:</label>
+            <input type='text' name='add_multi' id="input">
+            <input type='submit' value='add multi' class="button" id="add multi">
+        </form>
+    </div>
+</div>
+    
+</body>
+</html>

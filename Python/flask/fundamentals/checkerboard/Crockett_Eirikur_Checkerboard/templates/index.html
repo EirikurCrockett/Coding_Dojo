@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        #container{
+            width: 800px;
+            margin: 0 auto;
+            background-color: wheat;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cols{
+            margin: 0 auto;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .boardSpace{
+            height: 50px;
+            width: 50px;
+        }
+        .boardSpace:hover{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        {% for j in range(0, y, 1): %}
+            <div class="cols">
+                {% for k in range(0, x, 1): %}
+
+                {% if(j % 2 ==0): %}
+                    {% if(k % 2 == 0): %}
+                        <div class="boardSpace" style="background-color: {{color2}};"></div>
+                    {% else: %}
+                        <div class="boardSpace" style="background-color: {{color1}};"></div>
+                    {% endif %}
+
+                {% else: %}
+
+                    {% if(k % 2 == 0): %}
+                        <div class="boardSpace" style="background-color: {{color1}};"></div>
+                    {% else: %}
+                        <div class="boardSpace" style="background-color: {{color2}};"></div>
+                    {% endif %}
+
+                {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+
+
+
+</body>
+</html>

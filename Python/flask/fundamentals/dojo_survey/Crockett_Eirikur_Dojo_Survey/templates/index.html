@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <div id="container">
+        <h2 id="orange-text">Dojo Survey</h2>
+        <form action="/result" method="post" id="form">
+            <div class="flex-col">
+                <label for="name" class="white-text">Your Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div class="flex-col">
+                <label for="location" class="white-text">Dojo Location</label>
+                <select name="location" id="location">
+                    <option value="bellvue">Bellvue</option>
+                    <option value="boise">Boise</option>
+                    <option value="chicago">Chicago</option>
+                    <option value="los angeles">Los Angeles</option>
+                    <option value="silicon valley">Silicon Valley</option>
+                    <option value="online">Online</option>
+                </select>
+            </div>
+
+            <div class="flex-col">
+                <label for="language" class="white-text">Favorite Language:</label>
+                <select name="languages" id="languages">
+                    <option value="python">Python</option>
+                    <option value="js">JavaSript</option>
+                    <option value="java">Java</option>
+                    <option value="c#">C#</option>
+                </select>
+            </div>
+
+            <div class="flex-col">
+                <label for="comments" class="white-text">Comments:</label>
+                <textarea type="text" name="comments" id="comments"></textarea>
+            </div>
+            <input type="submit" value="send survey" id="button">
+        </form>
+    </div>
+</body>
+</html>

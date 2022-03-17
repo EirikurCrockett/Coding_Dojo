@@ -1,0 +1,48 @@
+-- 1.
+select name, language, percentage 
+from countries, languages 
+where language = 'Slovene' and countries.id = country_id
+order by percentage desc;
+
+-- 2.
+select countries.name, count(*) as "cities" 
+from countries, cities 
+where countries.id = country_id
+group by country_code
+order by count(*) desc;
+
+-- 3.
+select cities.name, cities.population
+from countries, cities 
+where countries.id = country_id and countries.name = "Mexico" and cities.population > 500000
+order by cities.population desc;
+
+-- 4.
+-- select countries.name, languages.language, languages.percentage
+-- from countries, languages
+-- where countries.id = country_id and languages.percentage > 89.0
+-- order by languages.percentage desc;
+
+-- 5.
+select countries.name, countries.surface_area, countries.population
+from countries
+where countries.population >100000 and countries.surface_area < 501
+order by countries.name asc -- not needed, but i wanted to add it
+
+-- 6.
+select countries.name, countries.government_form, countries.capital
+from countries
+where countries.government_form = 'Constitutional Monarchy' and countries.capital > 200
+order by countries.capital desc; -- not needed, but i wanted to add it
+
+-- 7.
+select countries.name, cities.district, cities.name, cities.population
+from countries, cities
+where countries.name = 'Argentina ' and countries.id = cities.country_id and cities.district = 'Buenos Aires' and cities.population >500000
+order by cities.name asc; -- not needed, but i wanted to add it
+
+-- 8.
+select countries.region, count(*) as countries_in_region
+from countries
+group by countries.region
+order by count(*) desc;

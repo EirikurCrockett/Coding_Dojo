@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'robato', sans-serif;
+}
+
+#container{
+    width: 550px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto;
+    background-color: rgb(34, 37, 41);
+    gap: 16px;
+    border-radius: 1%;
+}
+
+#container p{
+    word-break: break-all;
+}
+
+#orange-text{
+    color: orange;
+}
+
+.white-text{
+    color: white;
+}
+
+#blue-text{
+    color: rgb(87, 87, 246);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+#comments{
+    height: 10em;
+    vertical-align: top;
+    
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div id="container">
+        <form action="/create" method="POST" id="form" >
+            <div class="formField">
+                <label for="fname">First Name: </label>
+                <input type="text" name="fname">
+            </div>
+            <div class="formField">
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname">
+            </div>
+            <div class="formField">
+                <label for="email">Email: </label>
+                <input type="text" name="email">
+            </div>
+            <div class="formField"> 
+                <input type="submit" value="Create" >
+            </div>
+        </form>
+    </div>
+</body>
+</html>

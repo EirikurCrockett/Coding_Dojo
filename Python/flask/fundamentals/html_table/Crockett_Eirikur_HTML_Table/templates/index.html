@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+</head>
+<body>
+    <div class="container" style="padding: 16px;">
+        <table class="table table-bordered">
+            <tr style="background-color: indigo; color: white;">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Full Name</th>
+            </tr>
+            {% for user in users: %}
+                <tr>
+                        {% for info in user: %}
+                            <td>{{user[info]}}</td>
+                        {% endfor %}
+                        <td>
+                            {% for info in user: %}
+                                {{user[info]}}
+                            {% endfor %}
+                        </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>
