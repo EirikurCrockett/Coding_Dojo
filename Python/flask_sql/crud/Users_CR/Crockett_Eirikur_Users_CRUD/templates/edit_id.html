@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div id="container">
+        <form action="/update/{{user_info['id']}}" method="POST" id="form" >
+            <div class="formField">
+                <label for="fname">First Name: </label>
+                <input type="text" name="fname" value="{{user_info['first_name']}}">
+            </div>
+            <div class="formField">
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" value="{{user_info['last_name']}}">
+            </div>
+            <div class="formField">
+                <label for="email">Email: </label>
+                <input type="text" name="email" value="{{user_info['email']}}">
+            </div>
+            <div class="formField"> 
+                <input type="submit" value="Update">
+                <a href="/read/all">Home</a>
+                <a href="/read/{{user_info['id']}}">Show User</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    width: 800px;
+    margin: 24px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sub-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sub-container > *{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button{
+    width: 100px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 2px grey;
+}
+
+.button:active{
+    box-shadow: none;
+}
+
+#table-border{
+    border: 2px solid black;
+}

@@ -11,24 +11,23 @@
     <div class="container my-5">
         <table class=" table table-dark table-bordered">
             <tr>
-                <th>ID</th>
-                <th>Full Name</th>
-                <th>Email</th>
-                <th>Created At</th>
+                <th>User {{user_info['id']}}</th>
+            </tr>
+            <tr>
+                <td>{{user_info['first_name']}} {{user_info['last_name']}}</td>
+            </tr>
+            <tr>
+                <td>{{user_info['email']}}</td>
+            </tr>
+            <tr>
+                <td>{{user_info['created_at']}}</td>
             </tr>
 
-            {% for user in all_users: %}
 
-                <tr>
-                    <td>{{user['id']}}</td>
-                    <td>{{user['first_name']}} {{user['last_name']}}</td>
-                    <td>{{user['email']}}</td>
-                    <td>{{user['created_at']}}</td>
-                </tr>
-
-            {% endfor %}
-            <tr></tr>
         </table>
+        <a href="/read/all">Home</a>
+        <a href="/edit/{{user_info['id']}}">Edit</a>
+        <a href="/delete/{{user_info['id']}}">Delete</a>
     </div>
 </body>
 </html>

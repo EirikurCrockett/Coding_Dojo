@@ -211,119 +211,46 @@ class SLList {
 
     // find the location in the list and add a node with the given value AFTER that location
     appendVal(value, loc) {
-        // find the given node
-
-        var count = 0;
-        var runner = this.head;
-        var walker;
-
-        while(runner.next != null && count < loc + 1) {
-            count ++;
-            walker = runner;
-            runner = runner.next;
-        }
-
-        if(this.tail == runner) {
-            this.addToBack(value);
-            return this;
-        }
-
         var newNode = new Node(value);
-
-        walker.next = newNode;
-        newNode.next = runner;
-        return this;
+        var runner = this.head;
+        var counter = 0;
+        while(counter<=loc){
+            
+            if(counter == loc){
+                newNode.next = runner.next
+                runner.next = newNode
+            }
+            runner= runner.next
+            counter++
+        }
     }
     
     // find the location in the list and add a node with the given value BEFORE that location
     prependVal(value, loc) {
-        // find the given node
-        if(loc == 0) {
-            this.addToFront(value);
-            return this;
-        }
-
-        var count = 0;
-        var runner = this.head;
-        var walker;
-
-        while(runner.next != null && count < loc) {
-            count ++;
-            walker = runner;
-            runner = runner.next;
-        }
-
-        if(this.tail == runner) {
-            this.addToBack(value);
-            return this;
-        }
-
         var newNode = new Node(value);
-
-        newNode.next = runner.next;
-        walker.next = newNode;
-        return this;
-    }
-
-    // remove all negatives you find in the sll!
-    removeNegatives() {
-        // console.log(this)
-        if(this.head == null || this.head.next == null){
-            print('this list is too short')
-            return this
-        }
-        else if(this.head.next == null && this.head.value < 0){
-            this.head = null
-            this.tail = null
-            return this
-        }
-        var walker = this.head
-        var runner = this.head.next
-
-        while(runner != null && walker != null){
-            if(runner.value < 0){
-                walker.next = runner.next
-                runner.next = null
+        var runner = this.head;
+        var counter = 0;
+        while(counter<=loc){
+            if(counter == loc-1){
+                newNode.next = runner.next
+                runner.next = newNode
             }
-            console.log(walker)
-            walker = walker.next
-            // console.log(walker.next)
-            if(walker != null){
-                runner = walker.next
-            }
+            runner= runner.next
+            counter++
         }
-    }
-
-    // return second to last value in list
-    secondToLast() {
-        if(this.head == null){
-            print('this list is too short')
-            return this
-        }
-        else if(this.head.next == null){
-            return this.head.value
-        }
-        
-        var walker = this.head
-        var runner = walker.next.next
-        while(runner != null){
-            runner = runner.next
-            walker=walker.next
-        }
-        return walker.value
     }
 }
 
 var sll = new SLList();
 sll.printValues();
 sll.addToFront(6);
-sll.addToFront(-1);
+sll.addToFront(1);
 sll.addToFront(22);
-sll.addToBack(-9);
+sll.addToBack(9);
 sll.addToBack(12);
-sll.addToBack(-47);
+sll.addToBack(47);
 sll.printValues();
-console.log("========================================")
+// console.log("========================================")
 // console.log(sll.contains(9));
 // console.log(sll.contains(47));
 // console.log(sll.contains(25));
@@ -332,6 +259,7 @@ console.log("========================================")
 // sll.printValues();
 // console.log("========================================")
 // sll.removeFromBack();
-// sll.removeNegatives();
 // sll.printValues();
-console.log(sll.secondToLast());
+// sll.appendVal(10, 4);
+sll.prependVal(10, 4)
+sll.printValues();
