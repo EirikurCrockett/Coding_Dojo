@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Recipe</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Recipe</h1>
+        <div>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+
+    <div class="conatiner">
+        <form action="/recipe/create" method="post">
+            <div class="sub-container">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label for="description">Name:</label>
+                    <textarea name="desription" id="desription" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="instructions">Name:</label>
+                    <textarea name="instructions" id="instructions" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <div class="sub-container">
+                <div>
+                    <label for="date_made">Date Made On:</label>
+                    <input type="date" name="date_made" id="date_made">
+                </div>
+                <div>
+                    <label for="under_30">Under 30 Minutes?</label>
+                    <label for="yes">Yes?</label>
+                    <input type="radio" name="under_30" id="yes">
+                    <label for="no">No?</label>
+                    <input type="radio" name="under_30" id="no">
+                </div>
+            </div>
+            <input type="submit" value="Create">
+        </form>
+    </div>
+</body>
+</html>
