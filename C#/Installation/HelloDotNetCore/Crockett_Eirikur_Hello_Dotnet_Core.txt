@@ -1,0 +1,24 @@
+Microsoft Windows [Version 10.0.19044.1586]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation>dotnet --version
+5.0.406
+
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation>mkdir HelloDotNetCore
+
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation>cd HelloDotNetCore    
+
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore>dotnet new console
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\HelloDotNetCore.csproj...
+  Determining projects to restore...
+  Restored C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\HelloDotNetCore.csproj (in 72 ms).
+Restore succeeded.
+
+
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore>dotnet run 
+Hello World!
+
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore>

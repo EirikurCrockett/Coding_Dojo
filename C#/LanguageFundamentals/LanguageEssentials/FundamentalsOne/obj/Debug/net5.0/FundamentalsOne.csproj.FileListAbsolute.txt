@@ -1,0 +1,16 @@
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.csproj.AssemblyReference.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.AssemblyInfoInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.AssemblyInfo.cs
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.csproj.CoreCompileInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\bin\Debug\net5.0\FundamentalsOne.exe
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\bin\Debug\net5.0\FundamentalsOne.deps.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\bin\Debug\net5.0\FundamentalsOne.runtimeconfig.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\bin\Debug\net5.0\FundamentalsOne.runtimeconfig.dev.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\bin\Debug\net5.0\FundamentalsOne.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\bin\Debug\net5.0\ref\FundamentalsOne.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\bin\Debug\net5.0\FundamentalsOne.pdb
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\ref\FundamentalsOne.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.pdb
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\FundamentalsOne\obj\Debug\net5.0\FundamentalsOne.genruntimeconfig.cache

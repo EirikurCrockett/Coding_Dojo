@@ -1,0 +1,16 @@
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\bin\Debug\net5.0\HelloDotNetCore.exe
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\bin\Debug\net5.0\HelloDotNetCore.deps.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\bin\Debug\net5.0\HelloDotNetCore.runtimeconfig.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\bin\Debug\net5.0\HelloDotNetCore.runtimeconfig.dev.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\bin\Debug\net5.0\HelloDotNetCore.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\bin\Debug\net5.0\ref\HelloDotNetCore.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\bin\Debug\net5.0\HelloDotNetCore.pdb
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.csproj.AssemblyReference.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.AssemblyInfoInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.AssemblyInfo.cs
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.csproj.CoreCompileInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\ref\HelloDotNetCore.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.pdb
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\Installation\HelloDotNetCore\obj\Debug\net5.0\HelloDotNetCore.genruntimeconfig.cache

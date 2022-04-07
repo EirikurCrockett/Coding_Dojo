@@ -1,0 +1,16 @@
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.csproj.AssemblyReference.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.AssemblyInfoInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.AssemblyInfo.cs
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.csproj.CoreCompileInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net5.0\Puzzles.exe
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net5.0\Puzzles.deps.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net5.0\Puzzles.runtimeconfig.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net5.0\Puzzles.runtimeconfig.dev.json
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net5.0\Puzzles.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net5.0\ref\Puzzles.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net5.0\Puzzles.pdb
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\ref\Puzzles.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.pdb
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net5.0\Puzzles.genruntimeconfig.cache
