@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Add A Dish";
+}
+
+@model Dish
+<div class="text-center">
+    <form asp-action="AddDish" asp-controller="Home" method="post">
+        <div class="row">
+            <div class="col"> 
+                <div class="form-group">
+                    <span asp-validation-for="ChefId" class="text-danger"></span>
+                    <label asp-for="ChefId"></label>
+                    <select asp-for="ChefId" class="form-control">
+                        <option value="" hidden selected disabled>Who Created This Dish?</option>
+                        @foreach(Chef chef in @ViewBag.Chefs){
+                            <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Calories" class="text-danger"></span>
+                    <label asp-for="Calories"></label>
+                    <input asp-for="Calories" class="form-control">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Tastiness" class="text-danger"></span>
+                    <label asp-for="Tastiness"></label>
+                    <select asp-for="Tastiness" class="form-control">
+                        <option value="" selected hidden disabled>On a Scale of 1 to 5</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                    <label asp-for="Description"></label>
+                    <textarea asp-for="Description" cols="30" rows="9" class="form-control" style="resize: none;"></textarea>                   
+                </div>
+                <input type="submit" value="submit" class="btn btn-primary">
+            </div>
+
+        </div>
+        
+    </form>
+</div>

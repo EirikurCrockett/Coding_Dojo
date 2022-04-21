@@ -28,7 +28,6 @@ namespace WizardNinjaSamurai
             target.HealthDown(amount);
             this.HealthUp(amount);
             if(this.Health > this.MaxHealth)
-            
             {
                 int reduce = this.Health - this.MaxHealth;
                 Console.WriteLine(reduce);

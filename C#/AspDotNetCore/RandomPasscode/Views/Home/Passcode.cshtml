@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Passcode";
+}
+<div class="text-center">
+    <p>Random passcode (passcode #@ViewBag.PassNum)</p>
+    <h1>@ViewBag.Passcode</h1>
+    <a asp-action="Generate"><button>Generate</button></a>
+</div>

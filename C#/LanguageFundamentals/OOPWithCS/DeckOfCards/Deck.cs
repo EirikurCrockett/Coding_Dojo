@@ -1,10 +1,15 @@
 using System;
 using System.Collections.Generic;
 
+
+
 namespace DeckOfCards
 {
     public class Deck
     {
+        // <summary>
+        // DeckOfCards Deck Class
+        // </summary>
         public List<Card> Cards;
         public List<Player> Players;
         
@@ -13,6 +18,7 @@ namespace DeckOfCards
         public Deck()
         {   
             Cards = new List<Card>();
+            Players = new List<Player>();
             List<string> suits = new List<string>
             {
                 "Clubs",

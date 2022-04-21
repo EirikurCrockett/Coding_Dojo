@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "";
+}
+
+@model Association
+<div class="w-75 my-0 mx-auto d-flex justify-content-between">
+    <div class="w-25">
+        <h3>@ViewBag.Product.Name</h3>
+        <ul>
+            @foreach (Association assoc in ViewBag.Product.Associations)
+            {
+                <li>@assoc.Category.Name</li>
+            }
+        </ul>
+    </div>
+
+    <div class="w-25">
+        <form asp-controller="Home" asp-action="ProductAddCategory" method="post">
+            <input asp-for="ProductId" value="@ViewBag.Product.ProductId" hidden>
+            <div class="form-group">
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+                <label asp-for="CategoryId"></label>
+                <select asp-for="CategoryId" class="form-control">
+                    @foreach (Category cat in ViewBag.Categories)
+                    {
+                        bool found = false;
+                        foreach(Association assoc in ViewBag.Product.Associations)
+                        {
+                            if(assoc.CategoryId == cat.CategoryId)
+                            {
+                                found = true;
+                            }
+                        }
+
+                        if(!found)
+                        {
+                            <option value="@cat.CategoryId">@cat.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <input type="submit" value="Create" class="btn btn-primary">
+        </form>
+    </div>
+</div>

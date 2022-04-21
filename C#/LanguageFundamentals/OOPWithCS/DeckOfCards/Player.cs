@@ -15,16 +15,16 @@ namespace DeckOfCards
             name = n;
             deck = d;
             hand = new List<Card>();
-            Draw();
-            Draw();
-            Draw();
-            Draw();
-            Draw();
+            Draw(5);
         }
 
-        public void Draw()
+        public void Draw(int i)
         {
-            hand.Add(deck.Deal());
+            for(int j = 0; j < i; j++)
+            {
+                hand.Add(deck.Deal());
+            }
+            
         }
 
         public void CheckHand()

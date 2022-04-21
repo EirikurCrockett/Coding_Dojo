@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        @{
+            var StringList = new List<string>
+                {
+                    "one",
+                    "two",
+                    "three",
+                    "four"
+                };
+
+                foreach(var word in StringList)
+                {
+                    <div>
+                        @if(word.Length < 4)
+                        {
+                            <p style="color: white; background-color: black">@word</p>
+                        }
+                        else
+                        {
+                            <p>@word</p>
+                        }
+                    </div>
+                }
+        }
+
+        
+    </body>
+</html>
+

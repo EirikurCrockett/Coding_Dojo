@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Chefs";
+}
+
+<div class="w-75 my-0 mx-auto">
+    <h1>Chefs</h1>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col"># of Dishes</th>
+            </tr>
+        </thead>
+        @foreach (Chef chef in @ViewBag.Chefs)
+        {
+            TimeSpan timeDiff = DateTime.Now.Subtract(chef.DoB);
+            Double age = Math.Floor(timeDiff.Days/365.25);
+            
+            <tr>
+                <td>@chef.FirstName @chef.LastName</td>
+                <td>@age</td>
+                <td>@chef.CookBook.Count</td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Dishes";
+}
+
+<div class="w-75 my-0 mx-auto">
+    <h1>Dishes</h1>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Chef</th>
+                <th scope="col">Tastiness</th>
+                <th scope="col">Calories</th>
+            </tr>
+        </thead>
+        @foreach (Dish dish in @ViewBag.Dishes)
+        {
+            
+            <tr>
+                <td>@dish.Name</td>
+                <td>@dish.Creator.FirstName @dish.Creator.LastName</td>
+                <td>@dish.Tastiness</td>
+                <td>@dish.Calories</td>
+            </tr>
+        }
+    </table>
+</div>
