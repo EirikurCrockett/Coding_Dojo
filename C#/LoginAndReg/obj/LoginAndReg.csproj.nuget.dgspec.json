@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\AspDotNetCore\\LoginAndReg\\LoginAndReg.csproj": {}
+    "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\LoginAndReg\\LoginAndReg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\AspDotNetCore\\LoginAndReg\\LoginAndReg.csproj": {
+    "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\LoginAndReg\\LoginAndReg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\AspDotNetCore\\LoginAndReg\\LoginAndReg.csproj",
+        "projectUniqueName": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\LoginAndReg\\LoginAndReg.csproj",
         "projectName": "LoginAndReg",
-        "projectPath": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\AspDotNetCore\\LoginAndReg\\LoginAndReg.csproj",
+        "projectPath": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\LoginAndReg\\LoginAndReg.csproj",
         "packagesPath": "C:\\Users\\ecdc5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\AspDotNetCore\\LoginAndReg\\obj\\",
+        "outputPath": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\LoginAndReg\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

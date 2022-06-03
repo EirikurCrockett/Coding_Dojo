@@ -42,3 +42,14 @@ C:\Users\ecdc5\Desktop\CodingDojo\public\C#\AspDotNetCore\LoginAndReg\obj\Debug\
 C:\Users\ecdc5\Desktop\CodingDojo\public\C#\AspDotNetCore\LoginAndReg\obj\Debug\net5.0\LoginAndReg.csproj.CopyComplete
 C:\Users\ecdc5\Desktop\CodingDojo\public\C#\AspDotNetCore\LoginAndReg\obj\Debug\net5.0\Razor\Views\Home\Success.cshtml.g.cs
 C:\Users\ecdc5\Desktop\CodingDojo\public\C#\AspDotNetCore\LoginAndReg\obj\Debug\net5.0\Razor\Views\Home\LogPartial.cshtml.g.cs
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.csproj.AssemblyReference.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.AssemblyInfoInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.AssemblyInfo.cs
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.csproj.CoreCompileInputs.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.RazorAssemblyInfo.cache
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.RazorAssemblyInfo.cs
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\ref\LoginAndReg.dll
+C:\Users\ecdc5\Desktop\CodingDojo\public\C#\LoginAndReg\obj\Debug\net5.0\LoginAndReg.pdb

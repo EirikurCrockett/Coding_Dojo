@@ -41,7 +41,6 @@ namespace LoginAndRegWithDb.Controllers
                 }
                 else
                 {
-
                     PasswordHasher<User> hasher = new PasswordHasher<User>();
 
                     user.Password = hasher.HashPassword(user, user.Password);

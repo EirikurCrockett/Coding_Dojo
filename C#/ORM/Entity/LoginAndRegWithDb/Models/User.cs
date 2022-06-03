@@ -26,8 +26,7 @@ namespace LoginAndRegWithDb.Models
         public string Email { get; set;}
 
         [Required(ErrorMessage = "Password Is Required")]
-        [MinLength(8, ErrorMessage = "Password Must Contain At Least 8 Characters")]
-        [DataType(DataType.Password, ErrorMessage = "Please Enter A Valid Password")]
+        [DataType(DataType.Password)]
         public string Password { get; set;}
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
@@ -35,7 +34,7 @@ namespace LoginAndRegWithDb.Models
 
         [NotMapped]
         [Required(ErrorMessage = "Please Confirm Password")]
-        [DataType(DataType.Password, ErrorMessage = "Please Enter A Valid Password")]
+        [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "Passwords Must Match")]
         [Display(Name= "Confirm Password")]
         public string ConfirmPassword { get; set;}

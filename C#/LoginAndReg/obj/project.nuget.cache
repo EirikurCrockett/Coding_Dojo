@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TqLjJP87M0nog5jQ5TzXs4sca41mdPzdpcUBFHJcbO1HGSIOlIOOderPOSaYFsqd2nXdjkWdRIN4LYVHXtr+Hw==",
+  "dgSpecHash": "qGEsAOyH5jEOEqL/dpBXc6T3vrn+ydRQMx5mczG8HouYUV8Vh3G2zUxXUTNrbVgMbMNcBTgyv8Pj56wU7JW2Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\AspDotNetCore\\LoginAndReg\\LoginAndReg.csproj",
+  "projectFilePath": "C:\\Users\\ecdc5\\Desktop\\CodingDojo\\public\\C#\\LoginAndReg\\LoginAndReg.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

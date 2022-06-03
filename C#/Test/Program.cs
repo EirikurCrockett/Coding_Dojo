@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Security.Cryptography;
+// using PokeApiNet;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Test
 {
     class Program
     {
-        static void Main(string[] args)
+        static async void Main(string[] args)
         {
+            Console.WriteLine("Waiting");
+            Task.Delay(1000).Wait();
+            Console.WriteLine("Waited");
 
-            string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            string code = "";
-            Random rand = new Random();
-            for(int i = 0; i < 14; i++)
-            {
-                code = code + chars[rand.Next(0,chars.Length)];
-            }
-            
-            Console.WriteLine(code);
         }
+
+
+
     }
 }
